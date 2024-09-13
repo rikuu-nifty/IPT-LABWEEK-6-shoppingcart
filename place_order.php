@@ -11,13 +11,18 @@ $order_data .= "Date and Time Ordered: " . date('Y-m-d H:i:s') . "\n\n";
 $order_data .= "Order Items:\n";
 
 $total_price = 0;
-foreach ($_SESSION['cart'] as $product) {
-    $order_data .= "Product ID: " . $product['id'] . "\n";
-    $order_data .= "Product Name: " . $product['name'] . "\n";
-    $order_data .= "Price: " . $product['price'] . " PHP\n\n";
-    $total_price += $product['price'];
+foreach ($_SESSION['cart'] as $item) {
+    $product = $item['product'];
+    $quantity = $item['quantity'];
+    $price = $product['price'] * $quantity;
+
+    $order_data .= "Product ID: " . htmlspecialchars($product['id']) . "\n";
+    $order_data .= "Product Name: " . htmlspecialchars($product['name']) . "\n";
+    $order_data .= "Price: " . htmlspecialchars($price) . " PHP (x" . htmlspecialchars($quantity) . ")\n\n";
+
+    $total_price += $price;
 }
-$order_data .= "Total Price: " . $total_price . " PHP\n";
+$order_data .= "Total Price: " . htmlspecialchars($total_price) . " PHP\n";
 
 // Save order data to file
 $file = fopen("orders-$order_code.txt", 'w');

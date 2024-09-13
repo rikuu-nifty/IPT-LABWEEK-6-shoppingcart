@@ -1,0 +1,17 @@
+Order Code: 59647b93d0fd273c
+Date and Time Ordered: 2024-09-13 06:28:52
+
+Order Items:
+Product ID: 2
+Product Name: 1L Milk
+Price: 360 PHP (x3)
+
+Product ID: 5
+Product Name: 25Kg Rice
+Price: 4800 PHP (x4)
+
+Product ID: 6
+Product Name: One Tray Eggs
+Price: 900 PHP (x3)
+
+Total Price: 6060 PHP

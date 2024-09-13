@@ -1,0 +1,17 @@
+Order Code: 198235cb980d5d9f
+Date and Time Ordered: 2024-09-13 06:29:37
+
+Order Items:
+Product ID: 3
+Product Name: One Dozen Eggs
+Price: 600 PHP (x3)
+
+Product ID: 5
+Product Name: 25Kg Rice
+Price: 3600 PHP (x3)
+
+Product ID: 6
+Product Name: One Tray Eggs
+Price: 900 PHP (x3)
+
+Total Price: 5100 PHP

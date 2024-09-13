@@ -1,0 +1,29 @@
+Order Code: ef181d83d25fb049
+Date and Time Ordered: 2024-09-13 06:31:01
+
+Order Items:
+Product ID: 1
+Product Name: 1Kg Sugar
+Price: 100 PHP (x1)
+
+Product ID: 2
+Product Name: 1L Milk
+Price: 120 PHP (x1)
+
+Product ID: 3
+Product Name: One Dozen Eggs
+Price: 200 PHP (x1)
+
+Product ID: 4
+Product Name: 5Kg Sugar
+Price: 500 PHP (x1)
+
+Product ID: 6
+Product Name: One Tray Eggs
+Price: 300 PHP (x1)
+
+Product ID: 5
+Product Name: 25Kg Rice
+Price: 1200 PHP (x1)
+
+Total Price: 2420 PHP
